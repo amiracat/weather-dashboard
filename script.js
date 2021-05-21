@@ -19,7 +19,7 @@ function find(c){
     return 1;
 }
 //Set up API key
-let apiKey="68f32cfc27dbbce931f1c1a67d272108";
+let apiKey="903c8900db2872587c39c0420516f55c";
 // Display the curent and future weather to the user after grabbing the city from the input text box
 function displayWeather(event){
     event.preventDefault();
@@ -31,7 +31,7 @@ function displayWeather(event){
 // create the AJAX call
 function currentWeather(city){
     // build the URL so we can get a data from server side
-    let queryURL= "https://api.openweathermap.org/data/2.5/weather?appid=68f32cfc27dbbce931f1c1a67d272108&units=imperial&q=" + city;
+    let queryURL= "https://api.openweathermap.org/data/2.5/weather?appid=903c8900db2872587c39c0420516f55c&units=imperial&q=" + city;
     $.ajax({
         url:queryURL,
         method:"GET",
