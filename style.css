@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+h3 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* li {
+background-color: gray;
+} */
+
+/* .cap {
+    text-transform: capitalize;
+} */
+
+.jumbotron {
+    text-align: center;
+    background-image: linear-gradient(to right, #0066ff, #002966);
+    color: white;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.forecast {
+    background-color: rgb(8, 119, 114);
+    display: block;
+    font-size: smaller;
+    padding: 10px 5px 10px 8px;
+    margin: 8px;
+}
+
+.uv {
+    background-color: rgb(223, 146, 4);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.span {
+    font-size: 1em;
+}
+
+li:hover {
+    background-color: rgb(245, 234, 133);
+    text-decoration: underline;
+}
+  
+.future-dates {
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+
+#search-button {
+    background-color: lightseagreen;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#clear-history {
+    background-color: gray;
+    width: 100%;
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+#hr {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/*
+#subhead {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 7px;
+  }
+  */
