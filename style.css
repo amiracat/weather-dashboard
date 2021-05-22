@@ -58,12 +58,11 @@ li:hover {
     background-color: rgb(245, 234, 133);
     text-decoration: underline;
 }
-  
+
 .future-dates {
     font-weight: bold;
     font-size: larger;
-  }
-  
+}
 
 #search-button {
     background-color: lightseagreen;
